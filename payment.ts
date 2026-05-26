@@ -5,6 +5,6 @@
 //     console.log(v)
 // }
 
-export default class Payment {
-    constructor(public name: string){}
-}
+// export default class Payment {
+//     constructor(public name: string){}
+// }

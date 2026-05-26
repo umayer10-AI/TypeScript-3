@@ -1,5 +1,2 @@
-export default class Payment {
-    name: string;
-    constructor(name: string);
-}
+export {};
 //# sourceMappingURL=payment.d.ts.map
