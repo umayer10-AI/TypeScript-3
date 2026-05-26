@@ -49,12 +49,12 @@
 
 class A {
     switchOffCar() {
-        console.log("Switch OFf Car")
+        console.log("Switch Off Car")
     }
 }
 class B {
     switchOffTv() {
-        console.log("Switch OFf TV")
+        console.log("Switch Off TV")
     }
 }
 const a = new A()
@@ -69,4 +69,5 @@ const dd = (v: A | B) => {
     }
 }
 
-// console.log(A,b)
+dd(a)
+dd(b)

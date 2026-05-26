@@ -36,12 +36,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(a("Umayer"))
 class A {
     switchOffCar() {
-        console.log("Switch OFf Car");
+        console.log("Switch Off Car");
     }
 }
 class B {
     switchOffTv() {
-        console.log("Switch OFf TV");
+        console.log("Switch Off TV");
     }
 }
 const a = new A();
@@ -54,5 +54,6 @@ const dd = (v) => {
         v.switchOffTv();
     }
 };
-// console.log(A,b)
+dd(a);
+dd(b);
 //# sourceMappingURL=app.js.map
