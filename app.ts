@@ -32,7 +32,7 @@
 // a!.
 
 
-const a = (v: string | number) => {
+const a = (v: string | number | any) => {
     if(typeof v === "number"){
         return "number"
     }
