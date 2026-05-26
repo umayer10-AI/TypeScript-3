@@ -15,7 +15,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let a: any = 12
 // <number>a.
 // let a: string = String(12)
-let a = Number("12");
-console.log(a);
-console.log(typeof a);
+// let a: number = Number("12")
+// console.log(a)
+// console.log(typeof a)
+// let a: null | undefined | string;
+// a = "Umayer"
+// a!.
 //# sourceMappingURL=app.js.map
