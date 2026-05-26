@@ -48,18 +48,25 @@
 
 
 class A {
-    switchOff() {
+    switchOffCar() {
         console.log("Switch OFf Car")
     }
 }
 class B {
-    switchOff() {
+    switchOffTv() {
         console.log("Switch OFf TV")
     }
 }
-
 const a = new A()
 const b = new B()
-a.switchOff()
-b.switchOff()
+
+const dd = (v: A | B) => {
+    if(v instanceof A){
+        v.switchOffCar()
+    }
+    else if(v instanceof B){
+        v.switchOffTv()
+    }
+}
+
 // console.log(A,b)
