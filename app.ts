@@ -32,16 +32,34 @@
 // a!.
 
 
-const a = (v: string | number | any) => {
-    if(typeof v === "number"){
-        return "number"
-    }
-    else if(typeof v === "string"){
-        return "string"
-    }
-    else{
-        throw new Error ("Something is Wrong")
+// const a = (v: string | number | any) => {
+//     if(typeof v === "number"){
+//         return "number"
+//     }
+//     else if(typeof v === "string"){
+//         return "string"
+//     }
+//     else{
+//         throw new Error ("Something is Wrong")
+//     }
+// }
+// console.log(a(12))
+// console.log(a("Umayer"))
+
+
+class A {
+    switchOff() {
+        console.log("Switch OFf Car")
     }
 }
-console.log(a(12))
-console.log(a("Umayer"))
+class B {
+    switchOff() {
+        console.log("Switch OFf TV")
+    }
+}
+
+const a = new A()
+const b = new B()
+a.switchOff()
+b.switchOff()
+// console.log(A,b)

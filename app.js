@@ -21,17 +21,32 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let a: null | undefined | string;
 // a = "Umayer"
 // a!.
-const a = (v) => {
-    if (typeof v === "number") {
-        return "number";
+// const a = (v: string | number | any) => {
+//     if(typeof v === "number"){
+//         return "number"
+//     }
+//     else if(typeof v === "string"){
+//         return "string"
+//     }
+//     else{
+//         throw new Error ("Something is Wrong")
+//     }
+// }
+// console.log(a(12))
+// console.log(a("Umayer"))
+class A {
+    switchOff() {
+        console.log("Switch OFf Car");
     }
-    else if (typeof v === "string") {
-        return "string";
+}
+class B {
+    switchOff() {
+        console.log("Switch OFf TV");
     }
-    else {
-        throw new Error("Something is Wrong");
-    }
-};
-console.log(a(12));
-console.log(a("Umayer"));
+}
+const a = new A();
+const b = new B();
+a.switchOff();
+b.switchOff();
+// console.log(A,b)
 //# sourceMappingURL=app.js.map
