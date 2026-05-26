@@ -1,1 +1,4 @@
-let a = 10
+import {getDetails, addPayment} from "./payment"
+
+addPayment(12)
+getDetails("Umayer")

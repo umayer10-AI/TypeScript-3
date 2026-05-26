@@ -1,4 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-let a = 10;
+const payment_1 = require("./payment");
+(0, payment_1.addPayment)(12);
+(0, payment_1.getDetails)("Umayer");
 //# sourceMappingURL=app.js.map

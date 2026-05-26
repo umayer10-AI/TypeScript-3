@@ -1,6 +1,6 @@
-const getDetails = (v: number): void => {
+export const getDetails = (v: string): void => {
     console.log(v)
 }
-const addPayemnt = (v: number): void => {
+export const addPayment = (v: number): void => {
     console.log(v)
 }
