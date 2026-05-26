@@ -14,6 +14,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(b)
 // let a: any = 12
 // <number>a.
+// let a: string = String(12)
 let a = Number("12");
 console.log(a);
 console.log(typeof a);

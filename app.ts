@@ -21,6 +21,7 @@
 
 // <number>a.
 
+// let a: string = String(12)
 let a: number = Number("12")
 console.log(a)
 console.log(typeof a)
