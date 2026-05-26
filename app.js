@@ -21,4 +21,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let a: null | undefined | string;
 // a = "Umayer"
 // a!.
+const a = (v) => {
+    if (typeof v === "number") {
+        return "number";
+    }
+    else if (typeof v === "string") {
+        return "string";
+    }
+    else {
+        throw new Error("Something is Wrong");
+    }
+};
+console.log(a(12));
+console.log(a("Umayer"));
 //# sourceMappingURL=app.js.map

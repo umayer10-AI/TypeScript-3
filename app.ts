@@ -30,3 +30,18 @@
 // a = "Umayer"
 
 // a!.
+
+
+const a = (v: string | number) => {
+    if(typeof v === "number"){
+        return "number"
+    }
+    else if(typeof v === "string"){
+        return "string"
+    }
+    else{
+        throw new Error ("Something is Wrong")
+    }
+}
+console.log(a(12))
+console.log(a("Umayer"))
