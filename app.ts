@@ -1,4 +1,12 @@
-import {getDetails, addPayment} from "./payment"
+// import {getDetails, addPayment} from "./payment"
 
-addPayment(12)
-getDetails("Umayer")
+// import Payment from "./payment"
+
+
+// // addPayment(12)
+// // getDetails("Umayer")
+
+// const b = new Payment("Umayer")
+// console.log(b)
+
+console.log("jello")

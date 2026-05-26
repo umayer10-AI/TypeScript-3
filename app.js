@@ -1,6 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const payment_1 = require("./payment");
-(0, payment_1.addPayment)(12);
-(0, payment_1.getDetails)("Umayer");
+// import {getDetails, addPayment} from "./payment"
+// import Payment from "./payment"
+// // addPayment(12)
+// // getDetails("Umayer")
+// const b = new Payment("Umayer")
+// console.log(b)
+console.log("jello");
+export {};
 //# sourceMappingURL=app.js.map

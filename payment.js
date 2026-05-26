@@ -1,12 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.addPayment = exports.getDetails = void 0;
-const getDetails = (v) => {
-    console.log(v);
-};
-exports.getDetails = getDetails;
-const addPayment = (v) => {
-    console.log(v);
-};
-exports.addPayment = addPayment;
+// export const getDetails = (v: string): void => {
+//     console.log(v)
+// }
+// export const addPayment = (v: number): void => {
+//     console.log(v)
+// }
+export default class Payment {
+    name;
+    constructor(name) {
+        this.name = name;
+    }
+}
 //# sourceMappingURL=payment.js.map
